@@ -1,0 +1,20 @@
+{
+  "average_metrics": {
+    "total_loss": 0.07059481278061867,
+    "mse_loss": 0.0012793175457045435,
+    "spectral_smoothness_loss": 0.0014351589605212211,
+    "spatial_consistency_loss": 0.0038780500926077367,
+    "spectral_angle_loss": 0.04460668846964836,
+    "ssim_loss": 0.042537553310394285,
+    "psnr": 29.08704376220703,
+    "rmse": 0.03546987101435661,
+    "mrae": 14.170312881469727,
+    "ssim": 0.9341932107293167,
+    "spectral_fidelity": 0.9981507658958435
+  },
+  "model_info": {
+    "model_name": "SpectralReconstructionNet",
+    "num_params": 14088988,
+    "avg_inference_time": 46.685800552368164
+  }
+}

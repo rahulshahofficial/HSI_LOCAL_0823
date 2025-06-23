@@ -2,17 +2,19 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import random
+import os
+import sys 
 
 # --- Configuration for Downsampling Output ---
 # Set to None or a number >= original points to skip downsampling.
 # Example: If original spectra have 181 points (800-1700nm every 5nm),
 # setting TARGET_NUM_DATAPOINTS = 16 will downsample the output.
-TARGET_NUM_DATAPOINTS = 64 # Or None to use original resolution
+TARGET_NUM_DATAPOINTS = 96 # Or None to use original resolution
 
 # --- Configuration for Synthetic Spectra with Dynamic Baseline (Method 1) ---
 NUM_SYNTHETIC_SPECTRA = 2
 SYNTHETIC_NUM_SHARP_FEATURES = 7
-SYNTHETIC_SHARP_FEATURE_DEPTH_RANGE = (0.1, 0.5)
+SYNTHETIC_SHARP_FEATURE_DEPTH_RANGE = (0.4, 0.5)
 SYNTHETIC_BASE_SHARP_WIDTH_NM = 15
 SYNTHETIC_SHARPNESS_FACTOR = 5.0
 SYNTHETIC_BASELINE_NUM_COMPONENTS = 3
@@ -22,17 +24,30 @@ SYNTHETIC_BASELINE_OFFSET_MEAN = 0.7
 SYNTHETIC_BASELINE_OFFSET_STD = 0.1
 
 # --- Configuration for Modifying ALL Existing Spectra by Adding Gaussian Features ---
-MODIFY_NUM_ADDED_FEATURES_RANGE = (2, 3) # e.g., add between 3 and 7 features
-MODIFY_ADDED_FEATURE_AMPLITUDE_RANGE = (0.05, 0.5) # Amplitude (depth/height)
-MODIFY_ADDED_FEATURE_BASE_WIDTH_NM = 20
+MODIFY_NUM_ADDED_FEATURES_RANGE = (2,2) # e.g., add between 3 and 7 features
+MODIFY_ADDED_FEATURE_AMPLITUDE_RANGE = (0.4, 0.5) # Amplitude (depth/height)
+MODIFY_ADDED_FEATURE_BASE_WIDTH_NM = 25
 MODIFY_ADDED_FEATURE_SHARPNESS_FACTOR = 4 # Higher = sharper added features
 MODIFY_ADDED_FEATURE_TYPE = 'dip' # 'dip' or 'peak'
 
 
-# --- File Paths ---
-INPUT_EXCEL_FILE = '/Volumes/ValentineLab/SimulationData/Rahul/Hyperspectral Imaging Project/HSI Data Sets/Plastics HSI Dataset/reference_spectra.xlsx'
-OUTPUT_SYNTHETIC_DB_EXCEL_FILE = '/Volumes/ValentineLab/SimulationData/Rahul/Hyperspectral Imaging Project/HSI Data Sets/Plastics HSI Dataset/sharp_spectra.xlsx'
-OUTPUT_MODIFIED_ALL_EXISTING_EXCEL_FILE = '/Volumes/ValentineLab/SimulationData/Rahul/Hyperspectral Imaging Project/HSI Data Sets/Plastics HSI Dataset/sharper_reference_spectra.xlsx'
+# --- Platform-Agnostic Path Configuration ---
+# Detect the OS and set the base path for data files.
+if sys.platform == "win32":
+    # Windows root path
+    base_path = "V:/SimulationData/Rahul/Hyperspectral Imaging Project/HSI Data Sets/Plastics HSI Dataset"
+else:
+    # macOS/Unix root path
+    base_path = "/Volumes/ValentineLab/SimulationData/Rahul/Hyperspectral Imaging Project/HSI Data Sets/Plastics HSI Dataset"
+
+print(f"Running on: {sys.platform}. Using base path: {base_path}")
+
+# --- File I/O Configuration ---
+# Input file is joined directly. Output files are templates to include resolution info.
+INPUT_EXCEL_FILE = os.path.join(base_path, 'reference_spectra.xlsx')
+OUTPUT_SYNTHETIC_DB_EXCEL_FILE = os.path.join(base_path, 'sharp_spectra_{}.xlsx')
+OUTPUT_MODIFIED_ALL_EXISTING_EXCEL_FILE = os.path.join(base_path, 'sharper_reference_spectra_2Peaks_{}.xlsx')
+
 
 
 def generate_gaussian(wavelengths, center, amplitude, width):

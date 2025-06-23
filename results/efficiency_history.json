@@ -1340,5 +1340,467 @@
         ]
       }
     }
+  },
+  {
+    "timestamp": "20250612_170621",
+    "data": {
+      "parameters": 14052124,
+      "flops": 7006055424.0,
+      "time_per_frame_ms": 31.21199607849121,
+      "model_config": {
+        "dimension": 64,
+        "stages": 3,
+        "blocks": [
+          1,
+          2,
+          3
+        ],
+        "heads": [
+          2,
+          4,
+          8
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "20250612_171551",
+    "data": {
+      "parameters": 14052124,
+      "flops": 7006055424.0,
+      "time_per_frame_ms": 29.687809944152832,
+      "model_config": {
+        "dimension": 64,
+        "stages": 3,
+        "blocks": [
+          1,
+          2,
+          3
+        ],
+        "heads": [
+          2,
+          4,
+          8
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "20250613_122508",
+    "data": {
+      "parameters": 14052124,
+      "flops": 7006055424.0,
+      "time_per_frame_ms": 37.51108646392822,
+      "model_config": {
+        "dimension": 64,
+        "stages": 3,
+        "blocks": [
+          1,
+          2,
+          3
+        ],
+        "heads": [
+          2,
+          4,
+          8
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "20250613_122923",
+    "data": {
+      "parameters": 14052124,
+      "flops": 7006055424.0,
+      "time_per_frame_ms": 34.372758865356445,
+      "model_config": {
+        "dimension": 64,
+        "stages": 3,
+        "blocks": [
+          1,
+          2,
+          3
+        ],
+        "heads": [
+          2,
+          4,
+          8
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "20250613_124834",
+    "data": {
+      "parameters": 14052124,
+      "flops": 7006055424.0,
+      "time_per_frame_ms": 35.30380725860596,
+      "model_config": {
+        "dimension": 64,
+        "stages": 3,
+        "blocks": [
+          1,
+          2,
+          3
+        ],
+        "heads": [
+          2,
+          4,
+          8
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "20250614_223207",
+    "data": {
+      "parameters": 14052124,
+      "flops": 7006055424.0,
+      "time_per_frame_ms": 31.099963188171387,
+      "model_config": {
+        "dimension": 64,
+        "stages": 3,
+        "blocks": [
+          1,
+          2,
+          3
+        ],
+        "heads": [
+          2,
+          4,
+          8
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "20250614_223847",
+    "data": {
+      "parameters": 14052124,
+      "flops": 7006055424.0,
+      "time_per_frame_ms": 29.82957363128662,
+      "model_config": {
+        "dimension": 64,
+        "stages": 3,
+        "blocks": [
+          1,
+          2,
+          3
+        ],
+        "heads": [
+          2,
+          4,
+          8
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "20250615_013757",
+    "data": {
+      "parameters": 14088988,
+      "flops": 7743335424.0,
+      "time_per_frame_ms": 30.79993724822998,
+      "model_config": {
+        "dimension": 64,
+        "stages": 3,
+        "blocks": [
+          1,
+          2,
+          3
+        ],
+        "heads": [
+          2,
+          4,
+          8
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "20250616_121559",
+    "data": {
+      "parameters": 14088988,
+      "flops": 7743335424.0,
+      "time_per_frame_ms": 29.688334465026855,
+      "model_config": {
+        "dimension": 64,
+        "stages": 3,
+        "blocks": [
+          1,
+          2,
+          3
+        ],
+        "heads": [
+          2,
+          4,
+          8
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "20250616_123547",
+    "data": {
+      "parameters": 14088988,
+      "flops": 7743335424.0,
+      "time_per_frame_ms": 45.31238079071045,
+      "model_config": {
+        "dimension": 64,
+        "stages": 3,
+        "blocks": [
+          1,
+          2,
+          3
+        ],
+        "heads": [
+          2,
+          4,
+          8
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "20250616_131429",
+    "data": {
+      "parameters": 14088988,
+      "flops": 7743335424.0,
+      "time_per_frame_ms": 29.68754768371582,
+      "model_config": {
+        "dimension": 64,
+        "stages": 3,
+        "blocks": [
+          1,
+          2,
+          3
+        ],
+        "heads": [
+          2,
+          4,
+          8
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "20250618_001039",
+    "data": {
+      "parameters": 14088988,
+      "flops": 7743335424.0,
+      "time_per_frame_ms": 39.04445171356201,
+      "model_config": {
+        "dimension": 64,
+        "stages": 3,
+        "blocks": [
+          1,
+          2,
+          3
+        ],
+        "heads": [
+          2,
+          4,
+          8
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "20250618_111328",
+    "data": {
+      "parameters": 14088988,
+      "flops": 7743335424.0,
+      "time_per_frame_ms": 35.40017604827881,
+      "model_config": {
+        "dimension": 64,
+        "stages": 3,
+        "blocks": [
+          1,
+          2,
+          3
+        ],
+        "heads": [
+          2,
+          4,
+          8
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "20250618_122857",
+    "data": {
+      "parameters": 14088988,
+      "flops": 7743335424.0,
+      "time_per_frame_ms": 32.434749603271484,
+      "model_config": {
+        "dimension": 64,
+        "stages": 3,
+        "blocks": [
+          1,
+          2,
+          3
+        ],
+        "heads": [
+          2,
+          4,
+          8
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "20250618_123111",
+    "data": {
+      "parameters": 14088988,
+      "flops": 7743335424.0,
+      "time_per_frame_ms": 33.587098121643066,
+      "model_config": {
+        "dimension": 64,
+        "stages": 3,
+        "blocks": [
+          1,
+          2,
+          3
+        ],
+        "heads": [
+          2,
+          4,
+          8
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "20250618_123651",
+    "data": {
+      "parameters": 14088988,
+      "flops": 7743335424.0,
+      "time_per_frame_ms": 29.48775291442871,
+      "model_config": {
+        "dimension": 64,
+        "stages": 3,
+        "blocks": [
+          1,
+          2,
+          3
+        ],
+        "heads": [
+          2,
+          4,
+          8
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "20250618_124158",
+    "data": {
+      "parameters": 14088988,
+      "flops": 7743335424.0,
+      "time_per_frame_ms": 31.000113487243652,
+      "model_config": {
+        "dimension": 64,
+        "stages": 3,
+        "blocks": [
+          1,
+          2,
+          3
+        ],
+        "heads": [
+          2,
+          4,
+          8
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "20250618_124402",
+    "data": {
+      "parameters": 14088988,
+      "flops": 7743335424.0,
+      "time_per_frame_ms": 30.228734016418457,
+      "model_config": {
+        "dimension": 64,
+        "stages": 3,
+        "blocks": [
+          1,
+          2,
+          3
+        ],
+        "heads": [
+          2,
+          4,
+          8
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "20250623_104032",
+    "data": {
+      "parameters": 14088988,
+      "flops": 7743335424.0,
+      "time_per_frame_ms": 30.234313011169434,
+      "model_config": {
+        "dimension": 64,
+        "stages": 3,
+        "blocks": [
+          1,
+          2,
+          3
+        ],
+        "heads": [
+          2,
+          4,
+          8
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "20250623_104348",
+    "data": {
+      "parameters": 14088988,
+      "flops": 7743335424.0,
+      "time_per_frame_ms": 28.334546089172363,
+      "model_config": {
+        "dimension": 64,
+        "stages": 3,
+        "blocks": [
+          1,
+          2,
+          3
+        ],
+        "heads": [
+          2,
+          4,
+          8
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "20250623_110333",
+    "data": {
+      "parameters": 14088988,
+      "flops": 7743335424.0,
+      "time_per_frame_ms": 30.717182159423828,
+      "model_config": {
+        "dimension": 64,
+        "stages": 3,
+        "blocks": [
+          1,
+          2,
+          3
+        ],
+        "heads": [
+          2,
+          4,
+          8
+        ]
+      }
+    }
   }
 ]

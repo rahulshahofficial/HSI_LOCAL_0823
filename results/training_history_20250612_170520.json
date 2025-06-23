@@ -1,0 +1,85 @@
+{
+  "epochs": [
+    1,
+    2
+  ],
+  "train_loss": [
+    1.9370845556259155,
+    1.9049524068832397
+  ],
+  "val_loss": [
+    1.6459698677062988,
+    1.622869849205017
+  ],
+  "train_metrics": [
+    {
+      "mse_loss": 0.15414804220199585,
+      "weighted_mse_loss": 0.05469314008951187,
+      "spectral_smoothness_loss": 1.6602065563201904,
+      "spatial_consistency_loss": 0.007522448897361755,
+      "spectral_angle_loss": 0.6225947737693787,
+      "spectral_tv_loss": 0.37081098556518555,
+      "spectral_dict_loss": 0.09793246537446976,
+      "ssim_loss": 0.6674902439117432
+    },
+    {
+      "mse_loss": 0.15245360136032104,
+      "weighted_mse_loss": 0.054103538393974304,
+      "spectral_smoothness_loss": 1.5980336666107178,
+      "spatial_consistency_loss": 0.0075480761006474495,
+      "spectral_angle_loss": 0.6182650327682495,
+      "spectral_tv_loss": 0.36299026012420654,
+      "spectral_dict_loss": 0.09618168324232101,
+      "ssim_loss": 0.6667330265045166
+    }
+  ],
+  "val_metrics": [
+    {
+      "mse_loss": 0.1665378212928772,
+      "weighted_mse_loss": 0.05835586041212082,
+      "spectral_smoothness_loss": 1.1144049167633057,
+      "spatial_consistency_loss": 0.008834301494061947,
+      "spectral_angle_loss": 0.4944174885749817,
+      "spectral_tv_loss": 0.2887506037950516,
+      "spectral_dict_loss": 0.0675337053835392,
+      "ssim_loss": 0.6987758576869965,
+      "psnr": 7.789755344390869,
+      "rmse": 0.4079757630825043,
+      "mrae": 2.3433876037597656,
+      "ssim": 0.24510535511459575,
+      "spectral_fidelity": 0.863944947719574
+    },
+    {
+      "mse_loss": 0.16538836061954498,
+      "weighted_mse_loss": 0.05793414264917374,
+      "spectral_smoothness_loss": 1.0719688534736633,
+      "spatial_consistency_loss": 0.00888404343277216,
+      "spectral_angle_loss": 0.49054504930973053,
+      "spectral_tv_loss": 0.2824909836053848,
+      "spectral_dict_loss": 0.06634169071912766,
+      "ssim_loss": 0.6988169550895691,
+      "psnr": 7.819919586181641,
+      "rmse": 0.4065634608268738,
+      "mrae": 2.3418073654174805,
+      "ssim": 0.24530128109672633,
+      "spectral_fidelity": 0.8657464981079102
+    }
+  ],
+  "best_epoch": 2,
+  "best_val_loss": 1.622869849205017,
+  "best_val_metrics": {
+    "mse_loss": 0.16538836061954498,
+    "weighted_mse_loss": 0.05793414264917374,
+    "spectral_smoothness_loss": 1.0719688534736633,
+    "spatial_consistency_loss": 0.00888404343277216,
+    "spectral_angle_loss": 0.49054504930973053,
+    "spectral_tv_loss": 0.2824909836053848,
+    "spectral_dict_loss": 0.06634169071912766,
+    "ssim_loss": 0.6988169550895691,
+    "psnr": 7.819919586181641,
+    "rmse": 0.4065634608268738,
+    "mrae": 2.3418073654174805,
+    "ssim": 0.24530128109672633,
+    "spectral_fidelity": 0.8657464981079102
+  }
+}

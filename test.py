@@ -1247,8 +1247,8 @@ class ReconstructionViewer(QMainWindow):
             recon_spectrum = self.full_reconstruction[:, y, x].numpy()
 
             # Create subplot
-            ax_spec = self.analysis_figure.add_subplot(num_pixels, 2, i*2 + 1)
-            ax_deriv = self.analysis_figure.add_subplot(num_pixels, 2, i*2 + 2)
+            ax_spec = self.analysis_figure.add_subplot(2, 4, i*2 + 1)
+            ax_deriv = self.analysis_figure.add_subplot(2, 4, i*2 + 2)
 
             # Plot spectra
             ax_spec.plot(self.wavelengths, orig_spectrum, 'b-', label='Original', linewidth=2)
