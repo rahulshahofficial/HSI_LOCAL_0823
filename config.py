@@ -46,8 +46,8 @@ class Config:
 
         # # Dataset paths LOCAL CODE PC Workstation 4
         self.dataset_path = os.path.join(self.base_path, 'Datasets',
-                                       # '061425_SyntheticHSI_Images_256_96wl_SHARP_2Peaks_bottles_and_random_grid')
-                                       '062325_SyntheticHSI_Images_256_96wl_SHARP_2Peaks_bottles_and_random_grid_with_random_objects')
+                                       '061425_SyntheticHSI_Images_256_96wl_SHARP_2Peaks_bottles_and_random_grid')
+                                       # '062325_SyntheticHSI_Images_256_96wl_SHARP_2Peaks_bottles_and_random_grid_with_random_objects')
 
         self.reference_spectra_path = os.path.join(self.base_path,'Datasets',
                                                   'sharper_reference_spectra_2Peaks_96pts.csv')
@@ -77,7 +77,10 @@ class Config:
         #                               # '9 Filters', '9Filters_smoothened.csv')
 
         # Filter paths LOCAL PC WS 4
-        self.filter_path = os.path.join(self.base_path, 'Filters', '16Filters.csv')
+        self.filter_path = os.path.join(self.base_path, 'Filters',
+                                         # '16Filters.csv')
+                                         '16Filters_98_95_40%.csv')
+                                         # '16Filters_98_95_40%_theta0.csv')
                                       
 
 
@@ -115,11 +118,11 @@ class Config:
         # Updated model save path to use centralized location
         # Model save information: Date_Size_WL_Spectial_Test#
 
-        # self.model_save_path = os.path.join(self.models_path, '052125_256p_64wl_no_dictionary_9filters_Test1.pth')
-        self.model_save_path = os.path.join(self.models_path, '061825_256p_96wl_16filters_2PEAKS_SharpSpectraTest5.pth')
+        # self.model_save_path = os.path.join(self.models_path, '061825_256p_96wl_16filters_2PEAKS_SharpSpectraTest5.pth')
+        self.model_save_path = os.path.join(self.models_path, '063025_256p_96wl_16filters_OPTIMIZED_FILTER_98_95_40_test3.pth')
         # self.model_save_path = os.path.join(self.models_path, 'test.pth')
 
-        self.results_path = 'results/061825'
+        self.results_path = 'results/063025'
 
 config = Config()
 print(f"Number of wavelength indices: {len(config.wavelength_indices)}")
