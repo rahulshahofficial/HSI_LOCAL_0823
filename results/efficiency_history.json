@@ -2220,5 +2220,115 @@
         ]
       }
     }
+  },
+  {
+    "timestamp": "20250707_183323",
+    "data": {
+      "parameters": 14088988,
+      "flops": 7743335424.0,
+      "time_per_frame_ms": 37.500596046447754,
+      "model_config": {
+        "dimension": 64,
+        "stages": 3,
+        "blocks": [
+          1,
+          2,
+          3
+        ],
+        "heads": [
+          2,
+          4,
+          8
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "20250707_183914",
+    "data": {
+      "parameters": 14088988,
+      "flops": 7743335424.0,
+      "time_per_frame_ms": 32.84099102020264,
+      "model_config": {
+        "dimension": 64,
+        "stages": 3,
+        "blocks": [
+          1,
+          2,
+          3
+        ],
+        "heads": [
+          2,
+          4,
+          8
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "20250707_184200",
+    "data": {
+      "parameters": 14088988,
+      "flops": 7743335424.0,
+      "time_per_frame_ms": 28.116297721862793,
+      "model_config": {
+        "dimension": 64,
+        "stages": 3,
+        "blocks": [
+          1,
+          2,
+          3
+        ],
+        "heads": [
+          2,
+          4,
+          8
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "20250707_184714",
+    "data": {
+      "parameters": 14088988,
+      "flops": 7743335424.0,
+      "time_per_frame_ms": 31.256937980651855,
+      "model_config": {
+        "dimension": 64,
+        "stages": 3,
+        "blocks": [
+          1,
+          2,
+          3
+        ],
+        "heads": [
+          2,
+          4,
+          8
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "20250707_185508",
+    "data": {
+      "parameters": 14088988,
+      "flops": 7743335424.0,
+      "time_per_frame_ms": 29.687929153442383,
+      "model_config": {
+        "dimension": 64,
+        "stages": 3,
+        "blocks": [
+          1,
+          2,
+          3
+        ],
+        "heads": [
+          2,
+          4,
+          8
+        ]
+      }
+    }
   }
 ]
